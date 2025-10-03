@@ -1,7 +1,7 @@
 <template>
   <div class="h-screen w-full flex items-center justify-center">
     <h2 class="animate">
-      <img src="/images/loading.png" class="w-40">
+      <img src="/images/loading.png" class="w-160">
     </h2>
   </div>
 </template>
@@ -33,7 +33,7 @@
     /* width: 350px; */
     /* font-size:26px; */
     font-family: Helvetica, sans-serif, Arial;
-    animation: load 1.2s infinite 0s ease-in-out;
+    animation: load 1.5s infinite 0s ease-in-out;
     animation-direction: alternate;
     text-shadow: 0 0 1px white;
 }
